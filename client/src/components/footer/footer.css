@@ -1,0 +1,41 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #618264;
+}
+
+.footer p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.aastha {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+}
+.aastha:hover {
+  color: #618264;
+  transition: all ease-in-out 0.3s;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.open-button {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background-color: #343a40;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 150px;
+  height: 100%;
+  background-color: #343a40;
+  padding-top: 20px;
+  transition: 0.3s linear;
+  z-index: 9999;
+}
+
+.close-button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  border-radius: 0;
+}
+
+.user-list {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.user {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
